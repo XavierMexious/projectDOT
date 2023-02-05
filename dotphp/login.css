@@ -1,0 +1,77 @@
+body {
+    background-image: url(assets/bg-home.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tampilan-menu{
+    border: 1px solid #ccc;
+    border-radius: 15px;    
+    box-sizing: border-box;
+    background-color: #ECECEC;  
+    position: absolute;
+    height: 580px;
+    width: 1080px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.tampilan-menu {
+    display: flex;
+    flex-flow: row-wrap;
+}
+
+.tampilan-menu .gambar .login-page {
+    width: 50%;
+}
+
+.tampilan-menu img {
+    width: 550px;
+    padding-top: 20%;
+}
+
+.tampilan-menu .login {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-top: 50%;
+}
+
+.login-page {
+    padding-left: 5%;
+}
+.login-page .unp {
+    font-size: 15px;
+    padding: 15px;
+}
+.login-page input {
+    width : 100%;
+    padding: 0 5px;
+    margin-left: -3%;
+    height: 30px;
+    border: none;
+    background: none;
+    background-color: #f5fafa;
+    border-radius: 5px;
+    box-shadow: 1px 1px grey; 
+}
+.login-page label {
+    margin-left: -3%;
+}
+
+.login-page .hidden-pw {
+    width: 50px;
+}
+.login-page a {
+    float: right;
+}
+
+.login-page .login-button {
+    width: 95%;
+    background: none;
+}
+.password .checkpw {
+    padding-top: 5px;
+}
